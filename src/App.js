@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import ThemeToggle from "./Components/Practice_4/ThemeToggle";
+// import PopulateData from "./Components/Practice_2/PopulateData";
+//import List from "./Components/Practice_1/List";
+//import SearchComponent from "./Components/Practice_3/SearchComponent";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* practice 1 <List/> */}
+      {/* practice 2 <PopulateData /> */}
+      {/* practice 2 <SearchComponent/> */}
+      <ThemeToggle />
+    </>
   );
 }
 

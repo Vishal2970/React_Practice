@@ -1,0 +1,2 @@
+Build a hook for debounced input (e.g. for search).
+
