@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+Here’s a list of **50 coding and conceptual questions** that can be asked in **React L1 interviews** (especially for a full-stack .NET + React role at Wissen or similar companies). These cover **React Hooks, JavaScript, frontend logic, and integration** — perfect for your preparation.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+### 🔁 **React – Custom Hooks & Component Logic (10)**
 
-In the project directory, you can run:
+1. Build a **custom hook** to fetch data from an API and return loading/data/error states.
+2. Build a hook for **debounced input** (e.g. for search).
+3. Create a hook that manages **localStorage state**.
+4. Write a hook to **detect window size** and update on resize.
+5. Build a custom hook to handle **pagination** from API data.
+6. Create a hook to detect if **user is online/offline**.
+7. Create a hook to **toggle** a boolean value (on/off).
+8. Write a hook that adds a **keyboard shortcut** listener.
+9. Implement a hook that **auto-refreshes** data every X seconds.
+10. Create a hook to handle **form validation** dynamically.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ⚛️ **React Component & App Logic (10)**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+11. Build a **To-Do App** (add/edit/delete items) using functional components.
+12. Create a searchable list using **`useState`, `useEffect`**, and filters.
+13. Show a list of users with **pagination** and a “Load more” button.
+14. Create a collapsible accordion using React state.
+15. Implement a **theme switcher** (light/dark mode) with context.
+16. Build a **step form wizard** (Step 1 > Step 2 > Submit).
+17. Render a **nested comment thread** (tree structure).
+18. Build a **dropdown** with outside click handling.
+19. Create a modal component with **keyboard and escape** support.
+20. Build an image gallery with **prev/next** navigation.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🧠 **JavaScript/ES6 Logic (10)**
 
-### `npm run build`
+21. Implement a **debounce** function in JS.
+22. Write a polyfill for `Array.prototype.map`.
+23. Create a function to flatten a nested array.
+24. Write code to deeply clone a nested object.
+25. Build a function to convert a string to camelCase.
+26. Implement **memoization** for expensive function.
+27. Use closure to build a **counter** with increment/decrement.
+28. Build a function to group array of objects by a key.
+29. Implement a custom `bind()` function.
+30. Implement a simple **event emitter** in JavaScript.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 📦 **State Management & Context (5)**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+31. Set up **React Context API** to manage app-wide auth state.
+32. Use `useReducer` to manage complex form state.
+33. Combine `useContext` + `useReducer` in a global store.
+34. Explain how Redux differs from Context API.
+35. Create a custom **global notification system** using Context.
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🌐 **HTTP, APIs & Side Effects (5)**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+36. Use `axios` or `fetch()` to call an API inside `useEffect`.
+37. Handle errors and retry logic on API failure.
+38. Implement file upload with progress bar in React.
+39. Chain multiple API calls based on responses.
+40. Cancel an API request if the component unmounts.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🎨 **UI, CSS, and DOM Handling (5)**
 
-## Learn More
+41. Build a responsive card layout using Flexbox/Grid.
+42. Create a custom **tooltip** on hover.
+43. Implement drag and drop list reordering.
+44. Detect a click outside a modal or dropdown and close it.
+45. Animate list items on mount/unmount (e.g. using `CSSTransition` or inline style).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### ⚙️ **Advanced Topics (5)**
 
-### Code Splitting
+46. Server-side render a component using Next.js.
+47. Create a dynamic route component using React Router.
+48. Lazy-load a component on scroll or click.
+49. Add unit tests for a React component using Jest/React Testing Library.
+50. Implement authentication flow with login form, token storage, and route protection.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you want **any specific question’s full code or explanation**, let me know — I can walk you through it step-by-step or help you practice live. Would you like to start with the **custom hook for fetch + list**?
